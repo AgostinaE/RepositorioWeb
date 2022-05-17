@@ -20,3 +20,10 @@ footer {
     grid-template-areas: "tnosotros tnovedades tcontacto"
         "nosotros novedades contacto";
 }
+
+.md-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr;
+
+}

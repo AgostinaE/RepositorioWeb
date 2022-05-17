@@ -1,15 +1,4 @@
-//esta funcion permite cambiar la clase del elemento con el id topMenu y transformarla en la clase responsive 
-function myFunction() {
-    x = document.getElementById("menu-responsive");
-    if (x.className === "menu") {
-      x.className += "responsive";
-    } else {
-      x.className = "menu";
-    }
-    
-  } 
-
-  let slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {

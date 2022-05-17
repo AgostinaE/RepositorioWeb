@@ -18,12 +18,14 @@
 
     <!--menu-->
     <div class="navbar">
-      <a href="#"><img src="./assets/logomenu.png" alt="logo Cet" class="img-menu"></a>
+      <a href="./index.html"><img src="./assets/logomenu.png" alt="logo Cet" class="img-menu"></a>
 
       <div class="dropdown menu-item">
-        <button class="dropbtn menu-item" onclick="myFunction()">Tecnicaturas Superiores
+
+        <button class="dropbtn" onclick="myFunction()">Tecnicaturas Superiores
           <i id="downico" class="fa-solid fa-angle-down"></i>
         </button>
+
         <div class="dropdown-content" id="myDropdown">
           <a class="menu-item" href="#">Tecnicatura Superior en Radiologia</a>
           <a class="menu-item" href="#">Tecnicatura Superior en Instrumentacion Quirúrgica</a>
@@ -32,7 +34,7 @@
         </div>
       </div>
 
-      <a class="menu-item" href="#home">Siglo XXI</a>
+      <a class="menu-item" href="./SigloXXI.html">Siglo XXI</a>
       <a class="menu-item" href="#news">Carreras a Distancia</a>
       <a class="menu-item" href="#news">Contacto</a>
 
@@ -83,73 +85,78 @@
     </div>
 
     <div class="tabsContainer">
+      <h1 class="title">Informate</h1>
+      <div class="tabs">
 
-      <div class="iContent">
-        <h1 class="title">Informate</h1>
-        <!--planes de estudio-->
-        <button class="accordionItem">Planes de Estudio</button>
+        <button class="accordion">Planes de Estudio</button>
         <div class="panel">
+          <div class="tabcontent">
 
-          <h1 class="Atitle">Conoce las Areas de Estudio dentro del CET</h1>
-          <ul class="Pestudio">
+            <h1 class="Atitle">Conoce las Areas de Estudio dentro del CET</h1>
+            <ul class="Pestudio">
+              <li class="Pitem">
+                <a href="#" class="area">Área Paramédica</a>
+              </li>
+              <li class="Pitem">
+                <a href="#" class="area">Área Química</a>
+              </li>
+              <li class="Pitem">
+                <a href="#" class="area">Área de Turismo</a>
+              </li>
 
-            <li class="Pitem">
-              <a href="#" class="area">Área Paramédica</a>
-            </li>
-            <li class="Pitem">
-              <a href="#" class="area">Área Química</a>
-            </li>
-            <li class="Pitem">
-              <a href="#" class="area">Área de Turismo</a>
-            </li>
-
-          </ul>
+            </ul>
+          </div>
 
         </div>
-        <!--requisitos de ingreso-->
-        <button class="accordionItem">Requisitos de Ingreso</button>
-        <div class="panel">
-          <h1 class="Atitle">Conoce las Areas de Estudio dentro del CET</h1>
-          <ul class="Acet">
-            <li class="Pitem">
-              Fotocopia legalizada del certificado de estudios secundarios, anverso y reverso, o constancia de título en
-              trámites.
-            </li>
-            <li class="Pitem">
-              Fotocopia legalizada de la partida de nacimiento o bien, fotocopia de la partida de nacimiento y original
-              que podes
-              presentar en el instituto al momento de la inscripción para ser legalizada por el CET.
-            </li>
-            <li class="Pitem">
-              Fotocopia de la 1era y 2da hoja del DNI
-            </li>
-            <li class="Pitem">
-              Certificados de apto médico otorgados por autoridad sanitaria oficial competente
-            </li>
-            <li class="Pitem">Certificados de apto médico otorgados por autoridad sanitaria oficial competente</li>
-            <li class="Pitem">Certificado apto psicológico, otorgados por autoridad sanitaria oficial competente.</li>
-            <li class="Pitem">Dos fotos carnet.</li>
 
-          </ul>
-        </div>
-        <!--Inscripcion Online-->
-        <button class="accordionItem">Incripcion Online</button>
+        <button class="accordion">Requisitos de Ingreso</button>
         <div class="panel">
+          <div class="tabcontent">
+            <h1 class="Atitle">Conoce los requisitos para ingresar al CET </h1>
+            <ul class="Acet">
+              <li class="Pitem">
+                Fotocopia legalizada del certificado de estudios secundarios, anverso y reverso, o constancia de título
+                en
+                trámites.
+              </li>
+              <li class="Pitem">
+                Fotocopia legalizada de la partida de nacimiento o bien, fotocopia de la partida de nacimiento y
+                original
+                que podes
+                presentar en el instituto al momento de la inscripción para ser legalizada por el CET.
+              </li>
+              <li class="Pitem">
+                Fotocopia de la 1era y 2da hoja del DNI
+              </li>
+              <li class="Pitem">
+                Certificados de apto médico otorgados por autoridad sanitaria oficial competente
+              </li>
+              <li class="Pitem">Certificados de apto médico otorgados por autoridad sanitaria oficial competente</li>
+              <li class="Pitem">Certificado apto psicológico, otorgados por autoridad sanitaria oficial competente.</li>
+              <li class="Pitem">Dos fotos carnet.</li>
 
-          <h1 class="Atitle">Completa el formulario</h1>
-          <p class="Ainformation">En el siguiente link encontraras un formulario en donde podras realizar tu inscripcion
-            online, recorda tener presente los requisitos de ingreso y la documentacion para realizar la inscripcion
-            online
-          </p>
-          <br>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV_25ZsFgwkPSh73hfz3oDkv2W5i7uhF2FtxbbkmWtM6tIuA/viewform"
-            target="_blank" class="Ainformationlink">Inscribete
-            Aqui</a>
+            </ul>
+          </div>
         </div>
 
-
+        <button class="accordion">Incripcion Online</button>
+        <div class="panel">
+          <div class="tabcontent">
+            <h1 class="Atitle">Completa el formulario</h1>
+            <p class="Ainformation">En el siguiente link encontraras un formulario en donde podras realizar tu
+              inscripcion
+              online, recorda tener presente los requisitos de ingreso y la documentacion para realizar la inscripcion
+              online
+            </p>
+            <br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV_25ZsFgwkPSh73hfz3oDkv2W5i7uhF2FtxbbkmWtM6tIuA/viewform"
+              target="_blank" class="Ainformationlink">Inscribete
+              Aqui</a>
+          </div>
+        </div>
 
       </div>
+
 
     </div>
 
@@ -201,7 +208,7 @@
 
     <div class="faqtabs">
       <!--preguntas frecuentes-->
-      <button class="accordionItem">¿Las Carreras son presenciales o a Distancia?</button>
+      <button class="accordion">¿Las Carreras son presenciales o a Distancia?</button>
       <div class="panel">
         <p class="Ainformation">
           Las Tecnicaturas Superiores en Radiología, Instrumentación Quirúrgica, Análisis Químico
@@ -220,7 +227,7 @@
           la Universidad de Entre Ríos (UNER), de los cuales podés informarte en los contactos habilitados para ello.
         </p>
       </div>
-      <button class="accordionItem">¿Que validez tienen los titulos que otorgan?</button>
+      <button class="accordion">¿Que validez tienen los titulos que otorgan?</button>
       <div class="panel">
         <p class="Ainformation">Las Tecnicaturas presenciales cuentan con títulos de validez nacional, esto quiere
           decir, que son reconocidos
@@ -228,7 +235,7 @@
           del
           territorio nacional.</p>
       </div>
-      <button class="accordionItem">¿Puedo incribirme si debo materias del secundario?</button>
+      <button class="accordion">¿Puedo incribirme si debo materias del secundario?</button>
       <div class="panel">
         <p class="Ainformation">El alumno que debe materias del secundario, puede inscribirse y comenzar a cursar, pero
           tiene un plazo máximo hasta el
@@ -238,7 +245,7 @@
           teniendo
           validez si el alumno retoma una vez haya regularizado su situación y finalizado el nivel de Educación Media.
         </p>
-      </div><button class="accordionItem">¿Cuando son las inscripciones y cuando comienzan las clases?</button>
+      </div><button class="accordion">¿Cuando son las inscripciones y cuando comienzan las clases?</button>
       <div class="panel">
         <p class="Ainformation">Las fechas puntual de cada año se difunden próximo a cada instancia. Para el año 2022
           las inscripciones serán de Octubre
@@ -248,7 +255,7 @@
           al
           iniciar las actividades cada año, en Febrero.</p>
       </div>
-      <button class="accordionItem">¿Cual es el valor de la cuota y como se abona?¿Todas las carreras valen lo
+      <button class="accordion">¿Cual es el valor de la cuota y como se abona?¿Todas las carreras valen lo
         mismo?
       </button>
       <div class="panel">
@@ -263,7 +270,7 @@
           mismo para todas las Tecnicaturas.
         </p>
       </div>
-      <button class="accordionItem">
+      <button class="accordion">
         ¿La cuota se abona siempre,incluso en vacaciones?
       </button>
       <div class="panel">
@@ -274,8 +281,7 @@
           ameriten una revisión, la cuota no deja de abonarse.
         </p>
       </div>
-
-      <button class="accordionItem">¿Puedo acceder a becas?</button>
+      <button class="accordion">¿Puedo acceder a becas?</button>
       <div class="panel">
         <p class="Ainformation">
           El CET no cuenta con ningún programa de becas propio, pero el estudiante puede asesorarse, postularse y
@@ -284,7 +290,7 @@
         </p>
       </div>
 
-      <button class="accordionItem">Si estudie o soy egresada/o de otra institucion educativa,¿puedo solicitar
+      <button class="accordion">Si estudie o soy egresada/o de otra institucion educativa,¿puedo solicitar
         analisis de equivalencias?</button>
       <div class="panel">
         <p class="Ainformation">
@@ -301,8 +307,8 @@
   <!--footer-->
   <footer>
 
-    <div class="fNosotros">
-      <h1 class="fitle">Nosotros</h1>
+    <div class="tNosotros">
+      <h1 class="fTitle">Nosotros</h1>
     </div>
 
     <div class="nosotros">
@@ -315,31 +321,29 @@
 
     </div>
 
-    <div class="fNovedades">
+    <div class="tNovedades">
       <h1 class="fTitle">Novedades</h1>
     </div>
 
     <div class="novedades">
       <ul class="fItemlist">
-        <li class="item">Inscripciones 2022</li>
-        <li class="item">Requisitos de Ingreso</li>
-        <li class="item">Tecnicaturas Superiores</li>
-        <li class="item">Educacion a distancia</li>
-
+        <li class="item">Nuestra Historia</li>
+        <li class="item">Autoridades y equipo de trabajo</li>
+        <li class="item">Mision,Vision y Valores</li>
       </ul>
     </div>
 
-    <div class="fContacto">
+    <div class="tContacto">
       <h1 class="fTitle">Contacto</h1>
     </div>
 
     <div class="contacto">
-      <ull class="fItemlist">
+      <ul class="fItemlist">
         <li class="item">Email:info@Cet.edu.ar</li>
         <li class="item">Telefono:0280-4429456</li>
         <li class="item">Telefono:0280-4433276</li>
         <li class="item">Direccion:Carrasco 250,Trelew,Chubut</li>
-        </ul>
+      </ul>
     </div>
 
 
