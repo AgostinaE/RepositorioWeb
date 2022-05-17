@@ -209,7 +209,7 @@ sans-serif;
     font-family: 'Open Sans',
         sans-serif;
     color: #343840;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -251,6 +251,27 @@ sans-serif;
 .btnInformacion:hover {
     color: #f9f9f9;
     background-color: #253b80;
+}
+
+.btn {
+    padding: 5px;
+    width: max-content;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    height: 50px;
+    font-size: 20px;
+    border: #253b80 solid 2px;
+    color: #343840;
+}
+
+.btn:hover {
+    color: #f9f9f9;
+    background-color: #253b80;
+}
+
+.btn a:hover {
+    color: #f9f9f9;
+
 }
 
 .btnInformacion {
@@ -385,12 +406,23 @@ footer {
 
 }
 
-.md-c {
+.md-c-r {
     display: flex;
     flex-direction: column;
     margin: 0px 20px;
     text-align: justify;
+    margin-left: 10%;
+
 }
+
+.md-c-l {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    text-align: justify;
+    margin-left: 10%;
+}
+
 
 @keyframes fade {
     from {
