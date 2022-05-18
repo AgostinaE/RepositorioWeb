@@ -17,6 +17,7 @@ sans-serif;
     margin: 0;
     padding: 0;
     height: auto;
+
 }
 
 
@@ -92,8 +93,6 @@ sans-serif;
     color: #f9f9f9;
 }
 
-
-
 .carrousel {
     width: 100%;
     height: auto;
@@ -101,21 +100,24 @@ sans-serif;
 
 .carrousel img {
     width: 100%;
-    height: 500px;
+    height: 550px;
     object-fit: cover;
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
+    height: 70px;
     margin-bottom: -4px;
     background-color: #34384057;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Open Sans',
         sans-serif;
 }
@@ -124,7 +126,7 @@ sans-serif;
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 5px 5px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -177,22 +179,6 @@ sans-serif;
         opacity: 1
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .title {
     color: #253b80;
@@ -280,7 +266,6 @@ sans-serif;
 }
 
 
-
 .items {
 
     list-style-position: inside;
@@ -336,20 +321,27 @@ sans-serif;
         sans-serif;
 }
 
-.btnInformacion:hover {
-    color: #f9f9f9;
-    background-color: #253b80;
+
+.link {
+    color: #343840;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 20px;
 }
 
 .btn {
+    width: 200px;
     padding: 5px;
     width: max-content;
     cursor: pointer;
-    background-color: #f9f9f9;
+    margin-top: 30px;
     height: 50px;
     font-size: 20px;
     border: #253b80 solid 2px;
     color: #343840;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -526,4 +518,37 @@ footer {
     max-width: 100%;
     position: relative;
     margin: auto;
+}
+
+.image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
+
+}
+
+.txt {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.txt p {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-size: 22px;
+    text-align: justify ;
+}
+
+.txt h1 {
+    text-align: center;
+    font-family: 'Koulen',
+        cursive;
+    font-size: 70px;
+
 }

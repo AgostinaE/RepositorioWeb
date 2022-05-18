@@ -26,3 +26,11 @@ footer {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
 }
+
+.Uconvenios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "infobox1 infobox2"
+        "infobox3 infobox4";
+}
