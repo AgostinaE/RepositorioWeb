@@ -342,6 +342,8 @@ sans-serif;
     border: #253b80 solid 2px;
     color: #343840;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
 }
 
 .btn:hover {
@@ -542,7 +544,7 @@ footer {
     font-family: 'Open Sans',
         sans-serif;
     font-size: 22px;
-    text-align: justify ;
+    text-align: justify;
 }
 
 .txt h1 {
@@ -551,4 +553,150 @@ footer {
         cursive;
     font-size: 70px;
 
+}
+
+.infoimg {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.imgcontainer {
+    width: 100%;
+    margin: 0px 10px;
+    justify-content: center;
+}
+
+.infobox {
+    margin-top: 20px;
+}
+
+.information {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.txtcon {
+    margin-top: 10px;
+    width: 90%;
+    margin: 0px 30px;
+}
+
+.btncon {
+    width: 90%;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    border: #253b80 solid 2px;
+    color: #343840;
+    border-radius: 5px;
+}
+
+.btncon:hover {
+    color: #f9f9f9;
+    background-color: #253b80;
+}
+
+.link:hover {
+    color: #f2f2f2;
+    background-color: #253b80;
+}
+
+.itxt {
+    background-color: #343840;
+
+}
+
+.titlec {
+    color: #f2f2f2;
+    font-family: 'Koulen',
+        cursive;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.formcontainer {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #253b80;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+label {
+    font-family: 'Koulen',
+        cursive;
+    font-size: 25px;
+    color: #336699;
+}
+
+.formcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
+}
+
+.btnform {
+
+    width: 90%;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 20px;
+    border: #253b80 solid 2px;
+    color: #343840;
+    border-radius: 5px;
+}
+
+.mapcontainer {
+
+    width: 90%;
+    display: flex;
+
+
+}
+
+.map {
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.15);
+}
+
+.itxt {
+    margin-top: -4px;
 }
